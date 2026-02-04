@@ -1,0 +1,104 @@
+/* Hero / títulos principais */
+.font-1-xxxl {
+  font: 700 4rem/1.125 "Poppins", sans-serif; /* 64/72 bold */
+}
+
+/* Título grande alternativo */
+.font-1-xxl {
+  font: 700 2.625rem/1.285 "Poppins", sans-serif; /* 42/54 bold */
+}
+
+/* Título médio */
+.font-1-xl {
+  font: 600 2.25rem/1.166 "Poppins", sans-serif; /* 36/42 semibold */
+}
+
+/* Título médio compacto */
+.font-1-l {
+  font: 600 1.5rem/1.5 "Poppins", sans-serif; /* 24/36 semibold */
+}
+
+/* Subtítulo */
+.font-1-m-b {
+  font: 600 1.125rem/1.5 "Poppins", sans-serif; /* 18/24 semibold */
+}
+
+/* Texto destaque */
+.font-1-m {
+  font: 500 1.125rem/1.5 "Poppins", sans-serif; /* 18/24 medium */
+}
+
+/* Texto pequeno */
+.font-1-s {
+  font: 500 1rem/1.5 "Poppins", sans-serif; /* 16/24 medium */
+}
+
+/* Texto grande */
+.font-2-l {
+  font: 400 1.5rem/1.333 "Roboto", sans-serif; /* 24/32 regular */
+}
+
+/* Texto grande arejado */
+.font-2-l-m {
+  font: 500 1.5rem/1.5 "Roboto", sans-serif; /* 24/36 medium */
+}
+
+/* Texto padrão */
+.font-2-m {
+  font: 400 1rem/1.5 "Roboto", sans-serif; /* 16/24 regular */
+}
+
+/* Texto médio em destaque */
+.font-2-m-b {
+  font: 600 1.125rem/1.333 "Roboto", sans-serif; /* 18/24 semibold */
+}
+
+/* Texto pequeno */
+.font-2-s {
+  font: 400 0.875rem/1.428 "Roboto", sans-serif; /* 14/20 regular */
+}
+
+
+/* Botões */
+
+.font-btn {
+  font: 600 1.125rem/1.333 "Poppins", sans-serif; /* 18/24 semibold */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+
+@media (max-width: 1200px) {
+  .font-1-xxxl {
+    font-size: 3rem;        /* 48px */
+    line-height: 1.2;
+  }
+
+  .font-1-xxl {
+    font-size: 2.25rem;     /* 36px */
+    line-height: 1.3;
+  }
+
+  .font-2-l {
+    font-size: 1.125rem;    /* 18px */
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-1-xxxl {
+    font-size: 2rem;        /* 32px */
+    line-height: 1.25;
+  }
+
+  .font-1-xl {
+    font-size: 1.5rem;      /* 24px */
+    line-height: 1.4;
+  }
+
+  .font-2-m {
+    font-size: 1rem;        /* 16px */
+    line-height: 1.5;
+  }
+}
+

@@ -1,0 +1,9 @@
+.introducao-bg {
+ background-color: var(--cor-f6);
+}
+
+.introducao {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}

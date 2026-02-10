@@ -16,6 +16,7 @@
   <!-- layout -->
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/introducao.css">
+  <link rel="stylesheet" href="./css/servicos.css">
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,6 +29,8 @@
 </head>
 
 <body>
+
+  <!--Header e Nav-->
   <header class="header-bg">
     <div class="header container">
       <a href="./">
@@ -35,16 +38,17 @@
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
-          <li><a href="#Início">Início</a></li>
-          <li><a href="Serviços">Serviços</a></li>
-          <li><a href="Marcas">Marcas</a></li>
-          <li><a href="Depoimentos">Depoimentos</a></li>
-          <li><a href="Contato">Contato</a></li>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#marcas">Marcas</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <!--Introdução-->
   <main id="inicio" class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
@@ -62,9 +66,65 @@
       <div class="introducao-imagem">
         <img src="./img/loja.jpg" alt="Suzano Baterias">
       </div>
-      
+
     </div>
   </main>
+
+  <!--Serviços-->
+  <section id="servicos" class="servicos-bg">
+    <div class="container servicos">
+      <header class="servicos-header">
+        <p class="font-1-l cor-f1">Soluçoes completas</p>
+        <h2 class="font-1-xxl cor-f4">Nossos Serviços Especializados</h2>
+        <p>Muito mais que uma loja de baterias, somos o seu parceiro em manutenção elétrica em Suzano</p>
+      </header>
+
+      <div class="servicos-grid">
+        <article class="servicos-card">
+          <img src="./img/icones/bateriaraio.svg" alt="" aria-hidden="true">
+          <h3 class="font-1-m-b cor-f6">Venda de Baterias</h3>
+          <p class="font-2-m cor-7">Trabalhamos com as melhores marcas do mercado (Moura, Zetta, Cral, AcDelco, Excel)
+          </p>
+        </article>
+
+        <article class="servicos-card">
+          <img src="./img/icones/lupaa.svg" alt="" aria-hidden="true">
+          <h3 class="font-1-m-b cor-f6">Teste Gratuito</h3>
+          <p class="font-2-m cor-7">Fazemos o teste completo do alternador e fuga de corrente para garantir que sua
+            bateria dure mais.</p>
+        </article>
+
+        <article class="servicos-card">
+          <img src="./img/icones/entrega.svg" alt="" aria-hidden="true">
+          <h3 class="font-1-m-b cor-f6">Entrega e Instalação Grátis</h3>
+          <p class="font-2-m cor-7">Comprou, instalou! Nossa equipe faz a substituição na hora com ferramentas
+            adequadas.
+          </p>
+        </article>
+
+        <article class="servicos-card">
+          <img src="./img/icones/ferramenta.svg" alt="" aria-hidden="true">
+          <h3 class="font-1-m-b cor-f6">Serviços de Autoelétrica</h3>
+          <p class="font-2-m cor-7">Reparos no motor de arranque, iluminação, travas, vidros elétricos e injeção
+            eletrônica.
+          </p>
+        </article>
+
+        <article class="servicos-card">
+          <img src="./img/icones/atendimento.svg" alt="" aria-hidden="true">
+          <h3 class="font-1-m-b cor-f6">Atendimento de Qualidade</h3>
+          <p class="font-2-m cor-7">Trabalhamos com atendimento de qualidade oferecendo suporte especializado em cada
+            serviço.</p>
+        </article>
+
+        <article class="servicos-card">
+          <img src="./img/icones/garantia.svg" alt="" aria-hidden="true">
+          <h3 class="font-1-m-b cor-f6">Garantia Total</h3>
+          <p class="font-2-m cor-7">Todos os nossos serviços acompanham certificado de garantia nacional.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>

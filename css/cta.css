@@ -1,0 +1,123 @@
+.section-bg {
+  background: linear-gradient(135deg, var(--cor-f1) 0%, var(--cor-f3) 100%);
+  padding: 80px 0;
+}
+
+.section-cta {
+  text-align: center;
+}
+
+.section-cta h2 {
+  font-size: 36px;      
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.section-cta p {
+  max-width: 60ch;
+  margin: 0 auto 32px;
+  font-size: 18px;      
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+.section-cta img {
+    width: 24px;
+    width: 24px;
+}
+.section-cta .botao {
+  font-size: 16px;      
+  padding: 16px 36px;
+  border-radius: 12px;
+}
+
+
+@media (max-width: 800px) {
+  .section-bg {
+    padding: 70px 0;
+  }
+
+  .section-cta h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .section-cta p {
+    font-size: 16px;
+    margin-bottom: 28px;
+  }
+ 
+  .section-cta img {
+    width: 22px;
+    height: 22px;
+  }
+  .section-cta .botao {
+    font-size: 15px;
+    padding: 14px 28px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-bg {
+    padding: 60px 0;
+  }
+
+  .section-cta h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .section-cta p {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .section-cta .botao {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-bg {
+    padding: 50px 0;
+  }
+
+  .section-cta {
+    padding: 0 16px; 
+  }
+
+  .section-cta h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .section-cta p {
+    font-size: 15px;
+    margin-bottom: 22px;
+  }
+
+  .section-cta .botao {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 16px;
+    font-size: 12px;          
+    gap: 8px;
+    white-space: normal;     
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section-cta .botao span {
+    display: inline-block;
+    line-height: 1.2;
+  }
+
+  .section-cta .botao img {
+    width: 16px;
+    height: 16px;
+   
+  }
+}
+
+

@@ -63,7 +63,7 @@ img {
 
   /* Texto */
   color: var(--cor-12);
-  font: 700 1.125rem/1 "Poppins", sans-serif;
+font: 700 1.125rem/1.2 "Poppins", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -106,26 +106,7 @@ img {
   }
 }
 
-/* Responsivo mobile */
-@media (max-width: 600px) {
-  .botao {
-    padding: 16px 28px;
-    font-size: 16px;
-    animation: pulse 2.5s infinite;
-  }
-}
 
-@media (max-width:400px) {
-  .botao {
-    width: 100%;
-    max-width: 320px;
-    padding: 16px 20px;
-    font-size: 13px;
-  }
-  .botao img {
-  width: 22px !important;
-  height: 22px !important;
-}
-}
+
 
 

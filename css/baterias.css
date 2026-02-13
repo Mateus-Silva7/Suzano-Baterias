@@ -1,0 +1,13 @@
+.marcas-bg {
+    background: var(--cor-1);
+    padding: 120px 0;
+}
+
+.marcas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+
+}
+

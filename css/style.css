@@ -106,6 +106,13 @@ font: 700 1.125rem/1.2 "Poppins", sans-serif;
   }
 }
 
+@media (max-width: 800px) {
+  .botao {
+    animation: pulse 2s infinite;
+  }
+}
+
+
 
 
 

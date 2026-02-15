@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="./css/cta.css">
   <link rel="stylesheet" href="./css/baterias.css">
   <link rel="stylesheet" href="./css/avaliacoes.css">
+  <link rel="stylesheet" href="./css/contato.css">
+
 
 
 
@@ -62,8 +64,7 @@
           As melhores marcas de baterias automotivas com garantia de fábrica,
           preço justo e entrega rápida.
         </p>
-        <a class="botao"
-          href="https://wa.me/5511912831203?text=Olá!%20Gostaria%20de%20adquirir%20uma%20bateria."
+        <a class="botao" href="https://wa.me/5511912831203?text=Olá!%20Gostaria%20de%20adquirir%20uma%20bateria."
           target="_blank" rel="noopener">
           <img class="icon" src="./img/icones/whatsapp.svg" alt="">
           <span>Peça sua bateria no Whatsapp</span>
@@ -177,7 +178,7 @@
       <p class="font-2-m">Atendemos toda a região de Suzano com instalação rápida e teste gartuito de alternador.</p>
 
       <a class="botao"
-       href="https://wa.me/5511912831203?text=Olá!% 20Gostaria%20de%20saber%20mais%20sobre%20a%20garantia%20dos%20serviços."
+        href="https://wa.me/5511912831203?text=Olá! Gostaria%20de%20saber%20mais%20sobre%20a%20garantia%20dos%20serviços."
         target="_blank" rel="noopener">
         <img class="icon" src="./img/icones/whatsapp.svg" alt="">
         <span>Entre em contato com a nossa equipe</span>
@@ -224,123 +225,242 @@
     </div>
   </section>
 
-  <!--Seção de Depoimentos dos Clientes-->
   <section id="depoimentos" class="depoimentos-bg">
 
-  <svg class="svg-defs" aria-hidden="true" focusable="false">
-    <symbol id="icon-star" viewBox="0 0 24 24">
-      <path d="M12 2.1l2.77 6.56 7.07.61-5.36 4.64 1.6 6.9L12 17.9 5.92 20.8l1.6-6.9L2.16 9.27l7.07-.61L12 2.1z" />
-    </symbol>
-  </svg>
+    <svg style="display: none;" aria-hidden="true">
+      <symbol id="icon-star" viewBox="0 0 24 24">
+        <path d="M12 2.1l2.77 6.56 7.07.61-5.36 4.64 1.6 6.9L12 17.9 5.92 20.8l1.6-6.9L2.16 9.27l7.07-.61L12 2.1z" />
+      </symbol>
+    </svg>
 
-  <header class="depoimentos-header">
-    <h2 class="font-1-xxl cor-0">O que nossos clientes dizem</h2>
+    <header class="depoimentos-header container">
+      <h2 class="font-1-xxl cor-f6">O que nossos clientes dizem</h2>
 
-    <div class="depoimentos-score">
-      <div class="depoimentos-stars" aria-label="Avaliação média 4.9 de 5">
-        <svg class="star"><use href="#icon-star"></use></svg>
-        <svg class="star"><use href="#icon-star"></use></svg>
-        <svg class="star"><use href="#icon-star"></use></svg>
-        <svg class="star"><use href="#icon-star"></use></svg>
-        <svg class="star"><use href="#icon-star"></use></svg>
+      <div class="depoimentos-score">
+        <div class="depoimentos-stars" aria-label="Avaliação média 4.9 de 5">
+          <svg class="star">
+            <use href="#icon-star" />
+          </svg>
+          <svg class="star">
+            <use href="#icon-star" />
+          </svg>
+          <svg class="star">
+            <use href="#icon-star" />
+          </svg>
+          <svg class="star">
+            <use href="#icon-star" />
+          </svg>
+          <svg class="star">
+            <use href="#icon-star" />
+          </svg>
+        </div>
+        <p class="font-2-s cor-8">
+          4.9/5 • baseado em 350 avaliações no Google
+        </p>
       </div>
-      <p class="font-2-s cor-3">4.9/5 • baseado em 350 avaliações no Google</p>
+    </header>
+
+    <div class="depoimentos-carousel">
+      <div class="depoimentos-slider">
+
+        <!-- 1 -->
+        <article class="depoimento-card">
+          <div class="depoimento-top">
+            <strong class="font-1-m cor-f4">Walmirzera</strong>
+            <div class="depoimentos-stars">
+              <svg class="star">
+                <use href="#icon-star" />
+              </svg>
+              <svg class="star">
+                <use href="#icon-star" />
+              </svg>
+              <svg class="star">
+                <use href="#icon-star" />
+              </svg>
+              <svg class="star">
+                <use href="#icon-star" />
+              </svg>
+              <svg class="star">
+                <use href="#icon-star" />
+              </svg>
+            </div>
+          </div>
+          <p class="font-2-m cor-8">
+            Excelente atendimento, rápido e produto confiável. Estão de parabéns!
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+        <!-- 2 -->
+        <article class="depoimento-card">
+          <strong class="font-1-m cor-f4">Rute Moreira</strong>
+          <p class="font-2-m cor-8">
+            Atendimento excelente e profissional muito educado. Recomendo!
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+        <!-- 3 -->
+        <article class="depoimento-card">
+          <strong class="font-1-m cor-f4">Juliana</strong>
+          <p class="font-2-m cor-8">
+            Preço justo, agilidade e eficiência no serviço. Gostei bastante!
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+        <!-- 4 -->
+        <article class="depoimento-card">
+          <strong class="font-1-m cor-f4">Antonio Pereira</strong>
+          <p class="font-2-m cor-8">
+            Diferencial na qualidade e rapidez do atendimento. Recomendo!
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+        <!-- 5 -->
+        <article class="depoimento-card">
+          <strong class="font-1-m cor-f4">Carla Cristina</strong>
+          <p class="font-2-m cor-8">
+            Fui atendida com muita atenção e resolveram meu problema rapidamente.
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+        <!-- 6 -->
+        <article class="depoimento-card">
+          <strong class="font-1-m cor-f4">Diogo Fernandes</strong>
+          <p class="font-2-m cor-8">
+            Atendimento rápido e ótimo parcelamento. Parabéns à equipe!
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+        <!-- 7 -->
+        <article class="depoimento-card">
+          <strong class="font-1-m cor-f4">Nair Martins</strong>
+          <p class="font-2-m cor-8">
+            Ótimo atendimento, educados e honestos no serviço prestado.
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+        <!-- 8 -->
+        <article class="depoimento-card">
+          <strong class="font-1-m cor-f4">Lucas Andrade</strong>
+          <p class="font-2-m cor-8">
+            Serviço rápido, preço competitivo e atendimento diferenciado.
+          </p>
+          <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias"
+            target="_blank" rel="noopener">Ver no Google</a>
+        </article>
+
+      </div>
     </div>
-  </header>
 
-  <div class="depoimentos-carousel" aria-label="Carrossel de depoimentos">
-    <div class="depoimentos-slider">
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Walmirzera</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Excelente atendimento, muito rápido, educados e produto confiável. Estão de parabéns...</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
+  </section>
 
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Rute Moreira</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Atendimento excelente rápido veio ate meu condomínio o profissional claudio muito educado. Recomendo ótima loja. Leticia atendente, tudo maravilhoso. Obrigada</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
-
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Rafaela Gomess</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Muito atencioso, ótimo serviço e de boa qualidade, fora a rapidez, Muito top !!! Parabéns</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
-
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Juliana</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Um ótimo atendimento, preço justo Agilidade e eficiência no serviço Gostei bastante e indico</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
-
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Antonio Pereira</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Preço competitivo com mercado se diferenciando na agilidade e na qualidade dos serviços oferecidos, excelente atendimento de todos envolvidos. Recomendo a todos 👏👏👏👏👍</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
-
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Carla Cristina</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Na loja de Suzano fui atendida pelo Sidney super atencioso, educado, resolveu minha situação em pouco tempo. Parabéns a toda equipe.</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
-
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Diogo Fernandes</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Atendimento rápido de qualidade, ótimo parcelamento! Foi mais rápido que o meu seguro! Parabéns a toda equipe.</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
-
-      <article class="depoimento-card">
-        <div class="depoimento-top">
-          <strong class="font-1-m cor-f6">Nair Martins</strong>
-          <div class="depoimentos-stars">
-            <svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg><svg class="star"><use href="#icon-star"></use></svg>
-          </div>
-        </div>
-        <p class="font-2-m cor-8">Ótimo atendimento, educados e prestativo, honesto no serviço prestado.</p>
-        <a class="depoimento-link font-2-s cor-f1" href="https://www.google.com/search?q=suzano+baterias&rlz=1C1YTUH_pt-BRBR1104BR1104&oq=su&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyDwgDECMYJxiABBiKBRjwBTITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDEwNzVqMGo3qAIIsAIB8QVrZbyJDKn6wQ&sourceid=chrome&ie=UTF-8&lqi=Cg9zdXphbm8gYmF0ZXJpYXNIhcnqleiqgIAIWiEQABABGAAYASIPc3V6YW5vIGJhdGVyaWFzKgYIAhAAEAGSARFjYXJfYmF0dGVyeV9zdG9yZQ#lkt=LocalPoiReviews&rlimm=4797741295275746522" target="_blank" rel="noopener">Ver no Google</a>
-      </article>
-    </div>
   </div>
-</section>
+  </div>
+  </section>
+  <!-- Seção contato -->
+  <section id="contato" class="contato-bg">
+    <div class="contato container">
+      <div class="contato-grid">
 
-<script src="/carousel.js"></script>
+        <!-- Coluna esquerda -->
+        <div class="contato-info">
+
+          <!-- header (pra controlar o espaçamento do h2 + p) -->
+          <div class="contato-header">
+            <h2 class="font-1-xxl cor-0">Entre em contato.</h2>
+            <p class="font-2-m cor-3">
+              Precisa de um orçamento ou socorro elétrico? Nossa equipe está pronta para te atender.
+            </p>
+          </div>
+
+          <div class="info-contato">
+            <div class="info-icon">
+              <img src="./img/icones/local.svg" alt="" aria-hidden="true">
+            </div>
+            <div>
+              <h3 class="font-2-l-m cor-0">Endereço</h3>
+              <p class="font-2-m cor-3">
+                Rua Regina Cabalau Mendonça, 443A - Jardim São Luiz, Suzano - SP, 80675-460
+              </p>
+            </div>
+          </div>
+
+          <div class="info-contato">
+            <div class="info-icon">
+              <img src="./img/icones/telefone.svg" alt="" aria-hidden="true">
+            </div>
+            <div>
+              <h3 class="font-2-l-m cor-0">Telefone / WhatsApp</h3>
+              <p class="font-2-m cor-3">(11) 9999-9999 / (11) 99999-99990</p>
+            </div>
+          </div>
+
+          <div class="info-contato">
+            <div class="info-icon">
+              <img src="./img/icones/clock.svg" alt="" aria-hidden="true">
+            </div>
+            <div>
+              <h3 class="font-2-l-m cor-0">Horário de Funcionamento</h3>
+              <p class="font-2-m cor-3">
+                Seg a Sex: 08:00 - 18:00 | Sáb: 08:00 - 15:00 | Feriados: 08:00 - 13:00
+              </p>
+            </div>
+          </div>
+
+
+          <div class="contato-mapa">
+            <img src="./img/mapaloja.jpg" alt="Mapa da loja Suzano Baterias">
+          </div>
+
+        </div>
+
+        <!-- Coluna direita (Form) -->
+        <aside class="orcamento" aria-label="Formulário de orçamento">
+          <h2 class="font-1-l cor-f6">Solicite seu orçamento</h2>
+
+          <form id="form-whatsapp" class="orcamento-form" action="#" method="post">
+            <div class="orcamento-item">
+              <label class="font-2-s cor-8" for="nome">Seu Nome</label>
+              <input id="nome" name="nome" type="text" required placeholder="Digite seu nome">
+            </div>
+
+            <div class="orcamento-item">
+              <label class="font-2-s cor-8" for="mensagem">Sua Mensagem / Dúvida</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Como podemos ajudar?"></textarea>
+            </div>
+
+            <button class="botao" type="submit">
+              <img src="./img/icones/whatsapp.svg" alt="" class="icon-zap" width="24" height="24">
+              <span>Enviar solicitação</span>
+            </button>
+          </form>
+        </aside>
+        </button>
+
+        </form>
+        </aside>
+
+      </div><!-- /contato-grid -->
+    </div><!-- /contato container -->
+  </section>
+
+  <script src="./js/carousel.js" defer></script>
+  <script src="./js/form-whatsapp.js"></script>
+
+
 </body>
+
 </html>

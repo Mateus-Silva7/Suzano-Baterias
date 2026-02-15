@@ -1,5 +1,5 @@
 .depoimentos-bg {
-  background: linear-gradient(135deg, var(--cor-f1), var(--cor-f3));
+background: var(--cor-2);
   padding: 60px 0;
   overflow: hidden;
   position: relative;

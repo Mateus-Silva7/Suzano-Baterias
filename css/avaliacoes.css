@@ -1,11 +1,16 @@
 .depoimentos-bg {
-background: var(--cor-2);
+  background: var(--cor-2);
   padding: 60px 0;
   overflow: hidden;
   position: relative;
 }
 
-.svg-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+.svg-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
 
 .depoimentos-header {
   text-align: center;
@@ -23,9 +28,8 @@ background: var(--cor-2);
 .star {
   width: 16px;
   height: 16px;
-  fill: var(--cor-p1); 
+  fill: var(--cor-p1);
 }
-
 
 .depoimentos-carousel {
   width: 100%;
@@ -36,14 +40,14 @@ background: var(--cor-2);
   display: flex;
   gap: 20px;
   padding: 20px 0 40px 20px;
-  width: max-content; 
+  width: max-content;
 }
 
 .depoimento-card {
-  background: var(--cor-0); 
+  background: var(--cor-0);
   border-radius: 12px;
   padding: 24px;
-  width: 320px;       
+  width: 320px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -58,7 +62,7 @@ background: var(--cor-2);
 }
 
 .depoimento-card p {
-  flex-grow: 1; 
+  flex-grow: 1;
   margin-bottom: 15px;
 }
 
@@ -68,8 +72,12 @@ background: var(--cor-2);
   align-self: flex-start;
 }
 
-
 @media (max-width: 600px) {
-  .depoimento-card { flex: 0 0 280px; padding: 20px; }
-  .depoimentos-header h2 { font-size: 1.5rem; }
+  .depoimento-card {
+    flex: 0 0 280px;
+    padding: 20px;
+  }
+  .depoimentos-header h2 {
+    font-size: 1.5rem;
+  }
 }

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/cores.css">
   <link rel="stylesheet" href="./css/tipografia.css">
   <link rel="stylesheet" href="./css/componentes.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- layout -->
   <link rel="stylesheet" href="./css/header.css">
@@ -81,16 +82,18 @@
   </main>
 
   <!--Serviços-->
+  <!--Animação-->
   <section id="servicos" class="servicos-bg">
     <div class=" servicos container">
-      <header class="servicos-header">
+      <header class="servicos-header" data-aos="fade-down">
         <p class="font-1-m">Soluçoes completas</p>
         <h2 class="font-1-xxl cor-f6">Nossos Serviços <span>Especializados.</span></h2>
         <p class="font-2-m cor-8">Muito mais que uma loja de baterias, somos o seu parceiro em manutenção elétrica em
           Suzano.</p>
       </header>
 
-      <div class="servicos-grid">
+      <!--Animação-->
+      <div class="servicos-grid" data-aos="fade-up">
         <article class="servicos-card">
           <img src="./img/icones/bateriaraio.svg" alt="" aria-hidden="true">
           <h3 class="font-1-m-b cor-f6">Venda de Baterias</h3>
@@ -191,35 +194,35 @@
   <!-- Seção Marcas-->
   <section id="marcas" class="marcas-bg">
     <div class="container marcas">
-
-      <header class="marcas-header">
+      <!--Animação-->
+      <header class="marcas-header" data-aos="fade-down">
         <h2 class="font-1-xl cor-f6">
           Trabalhamos Com as Melhores <span>Marcas de Baterias.</span>
         </h2>
       </header>
-
+      <!--Animação-->
       <ul class="marcas-grid">
-        <li class="bateria-card">
+        <li class="bateria-card" data-aos="fade-up" data-aos-delay="0">
           <img src="./img/baterias/moura.jpg" alt="Bateria Moura" loading="lazy">
         </li>
 
-        <li class="bateria-card">
-          <img src="./img/baterias/heliar.jpg" alt="Bateria Zetta" loading="lazy">
+        <li class="bateria-card" data-aos="fade-up" data-aos-delay="80">
+          <img src="./img/baterias/heliar.jpg" alt="Bateria Heliar" loading="lazy">
         </li>
 
-        <li class="bateria-card">
-          <img src="./img/baterias/acdelco.jpg" alt="Bateria Cral" loading="lazy">
+        <li class="bateria-card" data-aos="fade-up" data-aos-delay="160">
+          <img src="./img/baterias/acdelco.jpg" alt="Bateria AcDelco" loading="lazy">
         </li>
 
-        <li class="bateria-card">
-          <img src="./img/baterias/zetta.jpg" alt="Bateria Heliar" loading="lazy">
+        <li class="bateria-card" data-aos="fade-up" data-aos-delay="240">
+          <img src="./img/baterias/zetta.jpg" alt="Bateria Zetta" loading="lazy">
         </li>
 
-        <li class="bateria-card">
-          <img src="./img/baterias/cral.jpg" alt="Bateria ACDelco" loading="lazy">
+        <li class="bateria-card" data-aos="fade-up" data-aos-delay="320">
+          <img src="./img/baterias/cral.jpg" alt="Bateria Cral" loading="lazy">
         </li>
 
-        <li class="bateria-card">
+        <li class="bateria-card" data-aos="fade-up" data-aos-delay="400">
           <img src="./img/baterias/excell.jpg" alt="Bateria Excell" loading="lazy">
         </li>
       </ul>
@@ -227,8 +230,8 @@
     </div>
   </section>
 
+  <!--Depoimentos-->
   <section id="depoimentos" class="depoimentos-bg">
-
     <svg style="display: none;" aria-hidden="true">
       <symbol id="icon-star" viewBox="0 0 24 24">
         <path d="M12 2.1l2.77 6.56 7.07.61-5.36 4.64 1.6 6.9L12 17.9 5.92 20.8l1.6-6.9L2.16 9.27l7.07-.61L12 2.1z" />
@@ -502,86 +505,84 @@
 
   </section>
 
-  </div>
-  </div>
-  </section>
+
   <!-- Seção contato -->
-  <section id="contato" class="contato-bg">
-    <div class="contato container">
-      <div class="contato-grid">
+<section id="contato" class="contato-bg">
+  <div class="contato container">
+    <div class="contato-grid">
 
-        <!-- Coluna esquerda -->
-        <div class="contato-info">
+      <!--Animação-->
+      <!-- Coluna esquerda -->
+      <div class="contato-info">
 
-          <!-- header (pra controlar o espaçamento do h2 + p) -->
-          <div class="contato-header">
-            <h2 class="font-1-xxl cor-0">Entre em contato.</h2>
-            <p class="font-2-m cor-3">
-              Precisa de um orçamento ou socorro elétrico? Nossa equipe está pronta para te atender.
-            </p>
-          </div>
-
-          <div class="info-contato">
-            <div class="info-icon">
-              <img src="./img/icones/local.svg" alt="" aria-hidden="true">
-            </div>
-            <div>
-              <h3 class="font-2-l-m cor-0">Endereço</h3>
-              <p class="font-2-m cor-3">
-                Rua Regina Cabalau Mendonça, 443A - Jardim São Luiz, Suzano - SP, 80675-460
-              </p>
-            </div>
-          </div>
-
-          <div class="info-contato">
-            <div class="info-icon">
-              <img src="./img/icones/telefone.svg" alt="" aria-hidden="true">
-            </div>
-            <div>
-              <h3 class="font-2-l-m cor-0">Telefone / WhatsApp</h3>
-              <p class="font-2-m cor-3">(11) 9999-9999 / (11) 99999-99990</p>
-            </div>
-          </div>
-
-          <div class="info-contato">
-            <div class="info-icon">
-              <img src="./img/icones/clock.svg" alt="" aria-hidden="true">
-            </div>
-            <div>
-              <h3 class="font-2-l-m cor-0">Horário de Funcionamento</h3>
-              <p class="font-2-m cor-3">
-                Seg a Sex: 08:00 - 18:00 | Sáb: 08:00 - 15:00 | Feriados: 08:00 - 13:00
-              </p>
-            </div>
-          </div>
-
-
+        <div class="contato-header" data-aos="fade-up">
+          <h2 class="font-1-xxl cor-0">Entre em contato.</h2>
+          <p class="font-2-m cor-3">
+            Precisa de um orçamento ou socorro elétrico? Nossa equipe está pronta para te atender.
+          </p>
         </div>
 
-        <!-- Coluna direita (Form) -->
-        <aside class="orcamento" aria-label="Formulário de orçamento">
-          <h2 class="font-1-l cor-f6">Solicite seu orçamento</h2>
+        <div class="info-contato" data-aos="fade-up" data-aos-delay="80">
+          <div class="info-icon">
+            <img src="./img/icones/local.svg" alt="" aria-hidden="true">
+          </div>
+          <div>
+            <h3 class="font-2-l-m cor-0">Endereço</h3>
+            <p class="font-2-m cor-3">
+              Rua Regina Cabalau Mendonça, 443A - Jardim São Luiz, Suzano - SP, 80675-460
+            </p>
+          </div>
+        </div>
 
-          <form id="form-whatsapp" class="orcamento-form" action="#" method="post">
-            <div class="orcamento-item">
-              <label class="font-2-s cor-8" for="nome">Seu Nome</label>
-              <input id="nome" name="nome" type="text" required placeholder="Digite seu nome">
-            </div>
+        <div class="info-contato" data-aos="fade-up" data-aos-delay="160">
+          <div class="info-icon">
+            <img src="./img/icones/telefone.svg" alt="" aria-hidden="true">
+          </div>
+          <div>
+            <h3 class="font-2-l-m cor-0">Telefone / WhatsApp</h3>
+            <p class="font-2-m cor-3">(11) 9999-9999 / (11) 99999-99990</p>
+          </div>
+        </div>
 
-            <div class="orcamento-item">
-              <label class="font-2-s cor-8" for="mensagem">Sua Mensagem / Dúvida</label>
-              <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Como podemos ajudar?"></textarea>
-            </div>
+        <div class="info-contato" data-aos="fade-up" data-aos-delay="240">
+          <div class="info-icon">
+            <img src="./img/icones/clock.svg" alt="" aria-hidden="true">
+          </div>
+          <div>
+            <h3 class="font-2-l-m cor-0">Horário de Funcionamento</h3>
+            <p class="font-2-m cor-3">
+              Seg a Sex: 08:00 - 18:00 | Sáb: 08:00 - 15:00 | Feriados: 08:00 - 13:00
+            </p>
+          </div>
+        </div>
 
-            <button class="botao" type="submit">
-              <img src="./img/icones/whatsapp.svg" alt="" class="icon">
-              <span>Peça seu orçamento no WhatsApp</span>
-            </button>
-          </form>
-        </aside>
-      </div><!-- /contato-grid -->
-    </div><!-- /contato container -->
-  </section>
+      </div>
+
+      <!-- Coluna direita (Form) -->
+      <aside class="orcamento" aria-label="Formulário de orçamento" data-aos="fade-left">
+        <h2 class="font-1-l cor-f6">Solicite seu orçamento</h2>
+
+        <form id="form-whatsapp" class="orcamento-form" action="#" method="post">
+          <div class="orcamento-item">
+            <label class="font-2-s cor-8" for="nome">Seu Nome</label>
+            <input id="nome" name="nome" type="text" required placeholder="Digite seu nome">
+          </div>
+
+          <div class="orcamento-item">
+            <label class="font-2-s cor-8" for="mensagem">Sua Mensagem / Dúvida</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Como podemos ajudar?"></textarea>
+          </div>
+
+          <button class="botao" type="submit">
+            <img src="./img/icones/whatsapp.svg" alt="" class="icon">
+            <span>Peça seu orçamento no WhatsApp</span>
+          </button>
+        </form>
+      </aside>
+
+    </div><!-- /contato-grid -->
+  </div><!-- /contato container -->
+</section>
 
   <footer class="footer-bg">
 
@@ -615,7 +616,16 @@
   </footer>
 
   <script src="./js/carousel.js" defer></script>
-  <script src="./js/form-whatsapp.js"></script>
+  <script src="./js/form-whatsapp.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+      once: true,      // anima só uma vez
+      offset: 120,
+      easing: "ease-out"
+    });
+  </script>
 
 </body>
 

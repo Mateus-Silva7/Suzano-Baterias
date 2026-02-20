@@ -119,26 +119,20 @@ img {
 @media (max-width: 400px){
   .botao{
     width: 100%;
+    max-width: 320px;
     margin: 0 auto;
-
-    padding: 14px 14px;   
-    gap: 10px;
-
-    font-size: 14px;       
-
+    padding: 12px 16px;
+    gap: 8px;
+    font-size: 10px;
+    line-height: 1.25;
     white-space: normal;
     text-align: center;
-
-   
-    min-width: 0;
   }
 
   .botao .icon,
   .botao .icon-zap,
-  .botao svg.icon,
-  .botao img{
-    width: 18px;
-    height: 18px;
-    flex: 0 0 auto;
+  .botao svg.icon{
+    width: 16px;
+    height: 16px;
   }
 }

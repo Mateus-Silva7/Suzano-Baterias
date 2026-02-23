@@ -31,18 +31,15 @@
 }
 
 
-.bateria-card {
+.bateria-card-inner {
   background: var(--cor-0);
   border-radius: 12px;
   padding: 24px;
   text-align: center;
-
-  transition:
-    transform .25s ease,
-    box-shadow .25s ease;
+  transition: transform .25s ease, box-shadow .25s ease;
 }
 
-.bateria-card:hover {
+.bateria-card:hover .bateria-card-inner {
   transform: translateY(-8px);
   box-shadow:
     0 20px 40px rgba(0, 0, 0, 0.10),

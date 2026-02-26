@@ -35,7 +35,6 @@
   background: var(--cor-0);
   border-radius: 12px;
   padding: 24px;
-  text-align: center;
   transition: transform .25s ease, box-shadow .25s ease;
 }
 

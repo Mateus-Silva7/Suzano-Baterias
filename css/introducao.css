@@ -59,6 +59,11 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
   .introducao-conteudo h1 {
     margin-bottom: 20px;
   }

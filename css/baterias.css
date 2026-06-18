@@ -55,10 +55,6 @@
     margin-bottom: 60px;
   }
 
-  .marcas-header h2 {
-    font-size: 32px; 
-  }
-
   .marcas-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
@@ -68,8 +64,6 @@
     height: 180px;
   }
 }
-
-
 
 @media (max-width: 600px) {
 

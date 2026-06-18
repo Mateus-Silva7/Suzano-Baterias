@@ -49,7 +49,14 @@
   width: 100%;
 }
 
+
 @media (max-width: 800px) {
+  
+  .introducao-conteudo .font-1-xxxl {
+    font-size: 2.5rem; 
+    line-height: 1.25;
+  }
+}
   .header {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -86,7 +93,7 @@
   .header-menu a::after {
     display: none;
   }
-}
+
 
    
 @media (max-width: 600px) {
